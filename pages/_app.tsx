@@ -5,7 +5,7 @@ import { ChainId } from '@thirdweb-dev/sdk'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (  
-    <ThirdwebProvider desiredChainId={ChainId.Rinkeby}>
+    <ThirdwebProvider desiredChainId={ChainId.FantomTestnet}>
       <Component {...pageProps} />
     </ThirdwebProvider>
   )
